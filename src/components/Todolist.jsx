@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Todolist() {
-    const [tasks, setTasks] = useState(["Do an exercise", "Go to Church", "Go on a Date"]);
+    const [tasks, setTasks] = useState([]);
     const [newTask, setNewTAsk] = useState("")
 
     function handleInput(e){
@@ -38,5 +38,6 @@ function Todolist() {
         </div>
     )
 }
+
 
 export default Todolist
